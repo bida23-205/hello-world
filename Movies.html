@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie-Page</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+
+    <!-- 
+      - #HEADER
+    -->
+  
+    <header class="header" data-header>
+      <div class="container">
+  
+        <div class="overlay" data-overlay></div>
+  
+        <a href="./index.html" class="logo">
+          <img src="./assets/images/Logo PNG.png" alt="Warner Bros Studios" weight="50px" height="50px ">
+        </a>
+  
+        <div class="header-actions">
+  
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+  
+          <button class="btn btn-primary">Sign in</button>
+  
+        </div>
+  
+        <button class="menu-open-btn" data-menu-open-btn>
+          <ion-icon name="reorder-two"></ion-icon>
+        </button>
+  
+        <nav class="navbar" data-navbar>
+  
+          <div class="navbar-top">
+  
+            <a href="./index.html" class="logo">
+              <img src="./assets/images/Logo PNG.png" alt="Warner Bros Studios">
+            </a>
+  
+            <button class="menu-close-btn" data-menu-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+  
+          </div>
+  
+          <ul class="navbar-list">
+  
+            <li>
+              <a href="./index.html" class="navbar-link">Home</a>
+            </li>
+  
+            <li>
+              <a href="Movies.html" class="navbar-link">Movies</a>
+            </li>
+  
+            <li>
+              <a href="TV_Shows.html" class="navbar-link">Tv Shows</a>
+            </li>
+  
+            <li>
+              <a href="Games_Apps.HTML" class="navbar-link">Games & Apps</a>
+            </li>
+  
+            <li>
+              <a href="Collection.html" class="navbar-link">Collections</a>
+            </li>
+  
+            <li>
+              <a href="Feedback.html" 
+              class="navbar-link">Feedback</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="navbar-social-list">
+  
+            <li>
+              <a href="#" class="navbar-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="navbar-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="navbar-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="navbar-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="navbar-social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+  
+          </ul>
+  
+        </nav>
+  
+      </div>
+    </header>
+
+
+  <!-- 
+        - #TOP RATED
+      -->
+
+      <section class="top-rated">
+        <div class="container">
+
+          <p class="section-subtitle">Online Streaming</p>
+
+          <h2 class="h2 section-title">Top Warner Bros Movies</h2>
+
+
+
+          <ul class="movies-list">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Wonka.png" alt="Willy Wonka ">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Willy Wonka</h3>
+                  </a>
+
+                  <time datetime="2022">2000</time>
+                </div>
+
+                <div class="card-meta">
+                 <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Joker.jpg" alt="Joker">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Joker</h3>
+                  </a>
+
+                  <time datetime="2022">2019</time>
+                </div>
+
+                <div class="card-meta">
+                  
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/godzilla.jpg" alt="godzilla">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">godzilla</h3>
+                  </a>
+
+                  <time datetime="2022">2020</time>
+                </div>
+
+                <div class="card-meta">
+                  
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                   
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Elvis.jpg" alt="Elvis">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Elvis</h3>
+                  </a>
+
+                  <time datetime="2021">2023</time>
+                </div>
+
+                <div class="card-meta">
+                   <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                   
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/movie-5.png" alt="The Batman movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">The Batman</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/The suicide Squad.jpg" alt="The Suicide Squad">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">The Suicide Squad</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/The nun.jpg" alt="The nun">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">The nun</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/birds of prey.jpg" alt="birds of prey">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Birds of Prey</h3>
+                  </a>
+
+                  <time datetime="2021">2021</time>
+                </div>
+
+                <div class="card-meta">
+                 
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                  
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/Logo PNG.png" alt="Warner Bros Studios" width="50px" height="50px">
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="./index.html" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Movie</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">TV Show</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Web Series</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Pricing</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="#" class="quicklink-link">Faq</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Help center</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Terms of use</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Privacy</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024<a href="#">Warner Bros Studios</a>. All Rights Reserved
+        </p>
+
+        
+      </div>
+    </div>
+
+  </footer>
+  
+    
+</body>
+</html>
+
+
+
+
+
